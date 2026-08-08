@@ -86,7 +86,7 @@ class SqlBasedLibrarySearcherWithBibFilesTest {
     private PostgresServer postgresServer;
 
     @TempDir
-    private Path indexDir;
+    private Path indexDirtest;
 
     @BeforeEach
     void setUp() {
